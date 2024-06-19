@@ -5,29 +5,28 @@ const About = () => {
     <>
       <section className="about-section" id="about-section">
         <div className="about-header">
-          <h3 className="h-color">Why use this bot?</h3>
+          <h3 className="h-color">Porque usar o Russinho?</h3>
         </div>
         <div className="about-container">
           <div className="about-card">
             <div>
-              <h4 className="h-color">⚡ Commands</h4>
+              <h4 className="h-color">⚡ Comandos</h4>
               <p className="p-color">
-                We have more than 200 commands support in this bot.
+                Temos mais de 200 comandos para este bot.
               </p>
               <hr />
             </div>
             <div>
-              <h4 className="h-color">✉️ 24/7 Support</h4>
+              <h4 className="h-color">✉️ Suporte 24/7</h4>
               <p className="p-color">
-                The biggest support community server for the bot available for
-                you anytime.
+                Uma Variedade grande de suporte disponivel para ti.
               </p>
               <hr />
             </div>
             <div>
               <h4 className="h-color">✏️ Customization</h4>
               <p className="p-color">
-                Fully customizable discord bot completely FREE!
+                Bot facilmente costumizado!
               </p>
               <hr />
             </div>
@@ -35,22 +34,22 @@ const About = () => {
         </div>
         <p>
           <Link href="/commands" className="h-color no-decoration">
-            Check out Commands &rarr;
+            Verifica os nossos comandos &rarr;
           </Link>
         </p>
 
         <section className="about-stats">
           <div className="about-stats-card">
-            <h4 className="h-color">17k+</h4>
-            <p className="p-color">Total Servers</p>
+            <h4 className="h-color">12</h4>
+            <p className="p-color">Servidores Totais</p>
           </div>
           <div className="about-stats-card">
-            <h4 className="h-color">94k+</h4>
-            <p className="p-color">Total Users</p>
+            <h4 className="h-color">8k+</h4>
+            <p className="p-color">Usuarios Totais</p>
           </div>
           <div className="about-stats-card">
             <h4 className="h-color">375k+</h4>
-            <p className="p-color">Total Commands</p>
+            <p className="p-color">Comandos Utilizados</p>
           </div>
         </section>
       </section>
