@@ -12,7 +12,7 @@ const Footer = () => {
             <ul>
               <li>
                 <Link className="h-color" href="/">
-                  bot.gg
+                  drussodev.gg
                 </Link>
                 <span
                   style={{
@@ -30,7 +30,7 @@ const Footer = () => {
                     alt="online-status"
                     className="onlineStatus"
                   />{" "}
-                  Bot is online!
+                  Este Bot está Online e Funcional!
                 </span>
               </li>
             </ul>
@@ -39,17 +39,17 @@ const Footer = () => {
             <ul>
               <li>
                 <Link className="p-color" href="/commands">
-                  /commands
+                  /comandos
                 </Link>
               </li>
               <li>
                 <Link className="p-color" href="#">
-                  /support
+                  /suporte
                 </Link>
               </li>
               <li>
                 <Link className="p-color" href="#">
-                  /discord-server
+                  /servidor-discord
                 </Link>
               </li>
             </ul>
@@ -59,29 +59,29 @@ const Footer = () => {
           <hr />
           <div>
             <p className="p-color">
-              Created with ❤️ by{" "}
+              Criado com ❤️ por{" "}
               <Link
-                href="https://github.com/preetsuthar17"
+                href=""
                 className="h-color no-decoration"
               >
-                Preet Suthar
+                DRusso
               </Link>
             </p>
-            <p className="p-color">{year} &copy; All rights reserved!</p>
+            <p className="p-color">{year} &copy; Todos os direitos reservadosd!</p>
           </div>
           <div className="footer-sec2-link">
             <Link className="p-color no-decoration" href="#">
-              /support
+              /suporte
             </Link>
             <Link
               target="_blank"
               className="p-color no-decoration"
               href="https://github.com/preetsuthar17/discord-bot-website-template"
             >
-              /source-code
+              /codigo-fonte
             </Link>
             <Link className="p-color no-decoration" href="#">
-              /privacy
+              /prica
             </Link>
           </div>
         </div>
